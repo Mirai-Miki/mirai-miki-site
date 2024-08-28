@@ -7,9 +7,5 @@ import { MantineProvider } from "@mantine/core";
 import { theme } from "./src/theme";
 
 export const wrapPageElement = ({ element }) => {
-  return (
-    <MantineProvider defaultColorScheme="dark" theme={theme}>
-      {element}
-    </MantineProvider>
-  );
+  return <MantineProvider theme={theme}>{element}</MantineProvider>;
 };
