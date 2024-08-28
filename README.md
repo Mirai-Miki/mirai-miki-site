@@ -1,49 +1,30 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Shit, you weren't supposed to find this
 
-## 🚀 Quick start
+Well, since you're here, kick back and explore. This is just another place for me to procrastinate before I have to do actual work.
 
-1.  **Create a Gatsby site.**
+You can find the actual website at https://mirai-miki.com
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## What's the deal?
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Think of this as your one-stop shop for all things Mirai-Miki. You'll find links to my GitHub, where I've occasionally been known to code. There's also a portal to my Discord community, Mirai Lounge, where you can contact me if you absolutely must.
 
-2.  **Start developing.**
+If you're more of a visual person, check out my Instagram and Cara profiles. I've been creating digital art and 3D models that might just blow your mind (or at least your screen).
 
-    Navigate into your new site’s directory and start it up.
+## Why should you care?
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Well, you shouldn't. This isn't anything fancy. But if you're curious then have at it and don't say I didn't warn you.
 
-3.  **Open the code and start customizing!**
+## A few random thoughts:
 
-    Your site is now running at http://localhost:8000!
+- Cats are superior to dogs. (Fight me.)
+- Tea is essential for survival. (No exceptions.)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Under the Hood:
 
-4.  **Learn more**
+- **Built with:** Gatsby.js for a blazing-fast experience.
+- **Powered by:** Mantine 7 for a sleek and modern UI.
+- **Hosted on:** Cloudflare Pages for global reach and easy deployment.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Need to contact me?
 
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+God help you if it has come to this. But if the world is about to end and you really need to, you can find a link to my Discord server.
