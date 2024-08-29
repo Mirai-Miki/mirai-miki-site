@@ -65,7 +65,15 @@ export function SocialButton(props: {
         href={link}
         target="_blank"
         variant="outline"
-        leftSection={<Image src={icon} h={50} w="auto" pr={size.iconPadding} />}
+        leftSection={
+          <Image
+            src={icon}
+            height={50}
+            w={"auto"}
+            pr={size.iconPadding}
+            alt="Logo"
+          />
+        }
         rightSection={<IconExternalLink size="30" stroke={1} />}
         size={size.buttonSize}
         mih={size.buttonHeight}
@@ -89,7 +97,7 @@ export function SocialButton(props: {
 function ClipboardButton(props: { link: string }) {
   const { link } = props;
   return (
-    <CopyButton value={link} timeout={2000}>
+    <CopyButton value={link} timeout={2000} aria-label="Copy URL Button">
       {({ copied, copy }) => (
         <Tooltip
           label={copied ? "Copied" : "Copy: " + link}

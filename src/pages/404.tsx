@@ -43,6 +43,7 @@ export const Head = () => {
   return (
     <>
       <title>Not found</title>
+      <meta name="description" content="404 page not found" />
       <script
         defer
         src="https://umami.mirai-miki.com/script.js"

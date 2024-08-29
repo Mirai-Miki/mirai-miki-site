@@ -8,7 +8,12 @@ export function ColorSchemeToggle() {
   const icon = colorScheme === "dark" ? <IconSun /> : <IconMoon />;
 
   return (
-    <ActionIcon size="lg" variant="outline" onClick={() => toggleColorScheme()}>
+    <ActionIcon
+      size="lg"
+      variant="outline"
+      onClick={() => toggleColorScheme()}
+      aria-label="Toggle color scheme button"
+    >
       {icon}
     </ActionIcon>
   );

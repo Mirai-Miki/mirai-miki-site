@@ -25,6 +25,7 @@ export const Head = () => {
     <>
       <html lang="en" />
       <title>Mirai-Miki</title>
+      <meta name="description" content="A personal site for Mirai-Miki" />
       <meta content="Mirai Miki | Social links" property="og:title" />
       <meta
         content="This website is a testament to my procrastination skills."
