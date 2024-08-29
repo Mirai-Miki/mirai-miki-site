@@ -12,7 +12,7 @@ import {
 } from "@mantine/core";
 import { IconExternalLink } from "@tabler/icons-react";
 import { IconCopy, IconCheck } from "@tabler/icons-react";
-
+// @ts-ignore
 import * as styles from "./SocialButtonStyle.module.css";
 
 const sizeMap = {
@@ -70,6 +70,10 @@ export function SocialButton(props: {
         size={size.buttonSize}
         mih={size.buttonHeight}
         miw={size.buttonWidth}
+        onClick={(event) => {
+          // @ts-ignore
+          umami.track({ name });
+        }}
       >
         <span
           style={{

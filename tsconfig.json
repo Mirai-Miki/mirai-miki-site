@@ -18,5 +18,6 @@
     "./gatsby-node.tsx",
     "./gatsby-config.tsx",
     "./plugins/**/*"
-  ]
+  ],
+  "exclude": ["node_modules", ".cache", "public"]
 }

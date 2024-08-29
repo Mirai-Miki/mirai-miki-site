@@ -4,6 +4,7 @@ import { Container, Space } from "@mantine/core";
 import { NavBar } from "../components/NavBar";
 import { Bio } from "../components/Index/Bio";
 import { SocialLinkStack } from "../components/Index/SocialLinkStack";
+// @ts-ignore
 import * as styles from "../components/Index/Index.module.css";
 
 const IndexPage = () => {
@@ -40,6 +41,7 @@ export const Head = () => {
         defer
         src="https://umami.mirai-miki.com/script.js"
         data-website-id="a2db3ea8-3f65-4f8f-b421-3de53e418e7d"
+        data-domains="www.mirai-miki.com,mirai-miki.com"
       />
       <body className={styles.body} />
     </>

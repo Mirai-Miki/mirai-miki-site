@@ -55,7 +55,6 @@ export function SocialLinkStack() {
           icon={button.icon}
           link={button.link}
           gradient={button.gradient}
-          data-umami-event={button.name}
         />
       ))}
     </Stack>
