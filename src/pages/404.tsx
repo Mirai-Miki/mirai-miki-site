@@ -49,6 +49,12 @@ export const Head = () => {
         data-website-id="a2db3ea8-3f65-4f8f-b421-3de53e418e7d"
         data-domains="www.mirai-miki.com,mirai-miki.com"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap"
+        rel="stylesheet"
+      />
       <body className={styles.body} />
     </>
   );
