@@ -5,17 +5,8 @@ import { NavBar } from "../components/NavBar";
 import { Bio } from "../components/Index/Bio";
 import { SocialLinkStack } from "../components/Index/SocialLinkStack";
 import * as styles from "../components/Index/Index.module.css";
-import { useMantineColorScheme } from "@mantine/core";
 
 const IndexPage = () => {
-  const { colorScheme } = useMantineColorScheme();
-  const bodyClass = colorScheme === "dark" ? styles.dark : styles.light;
-
-  React.useEffect(() => {
-    document.body.classList.add(bodyClass);
-    return () => document.body.classList.remove(bodyClass);
-  }, [colorScheme]);
-
   return (
     <Container>
       <NavBar />
@@ -45,6 +36,7 @@ export const Head = () => {
       />
       <meta content="#d8a1ff" data-react-helmet="true" name="theme-color" />
       <meta name="twitter:card" content="summary_large_image" />
+      <body className={styles.body} />
     </>
   );
 };

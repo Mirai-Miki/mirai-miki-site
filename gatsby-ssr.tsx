@@ -14,5 +14,9 @@ export const onPreRenderHTML = ({
 };
 
 export const wrapPageElement = ({ element }) => {
-  return <MantineProvider theme={theme}>{element}</MantineProvider>;
+  return (
+    <MantineProvider defaultColorScheme="light" theme={theme}>
+      {element}
+    </MantineProvider>
+  );
 };
