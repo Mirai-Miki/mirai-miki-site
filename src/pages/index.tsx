@@ -33,7 +33,7 @@ export const Head = () => {
     <>
       <html lang="en" />
       <title>Mirai-Miki</title>
-      <meta content="Mirai Miki" property="og:title" />
+      <meta content="Mirai Miki | Social links" property="og:title" />
       <meta
         content="This website is a testament to my procrastination skills."
         property="og:description"
@@ -43,7 +43,8 @@ export const Head = () => {
         content="https://res.cloudinary.com/dze64d7cr/image/upload/v1724840198/mirai-miki-art/avatar.webp"
         property="og:image"
       />
-      <meta content="#a774cc" data-react-helmet="true" name="theme-color" />
+      <meta content="#d8a1ff" data-react-helmet="true" name="theme-color" />
+      <meta name="twitter:card" content="summary_large_image" />
     </>
   );
 };
