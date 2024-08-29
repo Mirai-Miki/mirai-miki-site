@@ -17,7 +17,7 @@ const NotFoundPage = () => {
   return (
     <Container>
       <Grid pt={50} justify="center" align="center">
-        <Image src="https://res.cloudinary.com/dze64d7cr/image/upload/v1724918089/mirai-miki-art/404.png" />
+        <Image src="https://res.cloudinary.com/dze64d7cr/image/upload/v1724918723/mirai-miki-art/404.webp" />
         <Stack align="center" justify="center">
           <Title ta="center">Oops, looks like you lost your way!</Title>
           <Text ta="center">
