@@ -97,7 +97,7 @@ export function SocialButton(props: {
 function ClipboardButton(props: { link: string }) {
   const { link } = props;
   return (
-    <CopyButton value={link} timeout={2000} aria-label="Copy URL Button">
+    <CopyButton value={link} timeout={2000}>
       {({ copied, copy }) => (
         <Tooltip
           label={copied ? "Copied" : "Copy: " + link}
@@ -108,6 +108,7 @@ function ClipboardButton(props: { link: string }) {
             color={copied ? "rgba(47, 153, 93, 1)" : "gray"}
             variant="subtle"
             onClick={copy}
+            aria-label="Copy URL Button"
           >
             {copied ? (
               <IconCheck style={{ width: rem(16) }} />
