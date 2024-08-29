@@ -31,8 +31,19 @@ export default IndexPage;
 export const Head = () => {
   return (
     <>
-      <html lang="en" data-mantine-color-scheme="light" />
+      <html lang="en" />
       <title>Mirai-Miki</title>
+      <meta content="Mirai Miki" property="og:title" />
+      <meta
+        content="This website is a testament to my procrastination skills."
+        property="og:description"
+      />
+      <meta content="https://mirai-miki.com" property="og:url" />
+      <meta
+        content="https://res.cloudinary.com/dze64d7cr/image/upload/v1724840198/mirai-miki-art/avatar.webp"
+        property="og:image"
+      />
+      <meta content="#a774cc" data-react-helmet="true" name="theme-color" />
     </>
   );
 };
