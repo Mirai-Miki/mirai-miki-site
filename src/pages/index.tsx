@@ -36,6 +36,11 @@ export const Head = () => {
       />
       <meta content="#d8a1ff" data-react-helmet="true" name="theme-color" />
       <meta name="twitter:card" content="summary_large_image" />
+      <script
+        defer
+        src="https://umami.mirai-miki.com/script.js"
+        data-website-id="a2db3ea8-3f65-4f8f-b421-3de53e418e7d"
+      />
       <body className={styles.body} />
     </>
   );
