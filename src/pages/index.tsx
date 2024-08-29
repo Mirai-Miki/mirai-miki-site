@@ -5,8 +5,17 @@ import { NavBar } from "../components/NavBar";
 import { Bio } from "../components/Index/Bio";
 import { SocialLinkStack } from "../components/Index/SocialLinkStack";
 import * as styles from "../components/Index/Index.module.css";
+import { useMantineColorScheme } from "@mantine/core";
 
 const IndexPage = () => {
+  const { colorScheme } = useMantineColorScheme();
+  const bodyClass = colorScheme === "dark" ? styles.dark : styles.light;
+
+  React.useEffect(() => {
+    document.body.classList.add(bodyClass);
+    return () => document.body.classList.remove(bodyClass);
+  }, [colorScheme]);
+
   return (
     <Container>
       <NavBar />
@@ -24,7 +33,6 @@ export const Head = () => {
     <>
       <html lang="en" data-mantine-color-scheme="light" />
       <title>Mirai-Miki</title>
-      <body className={styles.body} />
     </>
   );
 };
