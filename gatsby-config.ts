@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `mirai-miki-site`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.mirai-miki.com`,
   },
   plugins: [
     "gatsby-plugin-postcss",

@@ -15,7 +15,7 @@ const primaryColor: MantineColorsTuple = [
 ];
 
 export const theme = createTheme({
-  fontFamily: "cursive",
+  fontFamily: "Comic Sans MS, Comic Sans, sans-serif",
   colors: {
     primaryColor,
   },
