@@ -78,7 +78,13 @@ export function SocialButton(props: {
         size={size.buttonSize}
         mih={size.buttonHeight}
         miw={size.buttonWidth}
-        data-umami-event={name}
+        onClick={() => {
+          // @ts-ignore
+          if (umami) {
+            // @ts-ignore
+            umami.track(name);
+          }
+        }}
       >
         <span
           style={{
